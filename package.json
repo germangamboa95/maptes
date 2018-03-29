@@ -1,0 +1,14 @@
+{
+  "name": "maptest",
+  "version": "1.0.0",
+  "description": "Testing maps and other stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "funny"
+  ],
+  "author": "German Gamboa",
+  "license": "MIT"
+}
