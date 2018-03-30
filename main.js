@@ -1,4 +1,5 @@
-let lat1 = 28.3741597;
+
+let lat1 = 40.3791597;
 let lat2 = 28.589528;
 let lon1 = -81.42769529999998;
 let lon2 = -81.19995599999999;
@@ -16,7 +17,7 @@ if (typeof (Number.prototype.toDeg) === "undefined") {
 
 
 function distance(lat1,lat2,lon1,lon2){
-  let R = 6371;
+  let R = 6371e3;
   let dLat = (lat2-lat1).toRad();
   let dLon = (lon2-lon1).toRad();
   let a = Math.sin(dLat/2) * Math.sin(dLat/2) +
